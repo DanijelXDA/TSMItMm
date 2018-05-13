@@ -2,7 +2,7 @@
 ------------------------------------
 	Labs - Design Studio
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -171,15 +171,15 @@ ul {
 }
 
 .site-btn.btn-2 {
-	background: #6a23b5;
+	background: #17a2b8;
 	color: #fff;
 	font-weight: 400;
 }
 
 .site-btn.btn-3 {
 	background: transparent;
-	color: #6a23b5;
-	border: 1px solid #6a23b5;
+	color: #17a2b8;
+	border: 1px solid #17a2b8;
 	padding: 14px 50px;
 }
 
@@ -187,60 +187,6 @@ ul {
 .site-btn:focus {
 	text-decoration: none;
 	outline: none;
-}
-
-/*------------------
-	Preloder
---------------------*/
-#preloder {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 999999;
-	background: #f1f1f1;
-	display: table;
-}
-
-.loader {
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.loader img {
-	animation: loader 0.8s linear infinite;
-	-webkit-animation: loader 0.8s linear infinite;
-}
-
-.loader h2 {
-	font-size: 14px;
-	margin-top: 10px;
-}
-
-@keyframes loader {
-	0% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0.3;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes loader {
-	0% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0.3;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 
@@ -288,9 +234,9 @@ ul {
 
 .header-section .menu-list li a {
 	display: inline-block;
-	padding: 35px 15px;
+	padding: 25px 15px;
 	margin-right: 15px;
-	color: #222;
+	color: #fff;
 	position: relative;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
@@ -302,17 +248,13 @@ ul {
 
 .header-section .menu-list li a:hover,
 .header-section .menu-list li a.active {
-	color: #6a23b5;
+	color: #2be6ab;
 }
 
 .header-section .menu-list li:last-child a {
 	margin-right: 0;
 }
 
-.header-section .menu-list li.active a {
-	background: #2be6ab;
-	color: #6a23b5;
-}
 
 .header-section .menu-list .current a:after {
 	width: 10px;
@@ -360,7 +302,7 @@ ul {
 	display: inline-block;
 	height: 50px;
 	width: 100px;
-	background: #6a23b5;
+	background: #17a2b8;
 	color: #fff;
 	text-align: center;
 	padding-top: 10px;
@@ -397,7 +339,7 @@ ul {
 --------------------------*/
 .about-section,
 .team-section {
-	background: #6a23b5;
+	background: #17a2b8;
 	position: relative;
 	z-index: 2;
 }
@@ -500,7 +442,7 @@ ul {
 	top: 50%;
 	margin-left: -30px;
 	margin-top: -30px;
-	color: #6a23b5;
+	color: #17a2b8;
 	background: #2be6ab;
 	border-radius: 50%;
 	text-align: center;
@@ -533,7 +475,7 @@ ul {
 	display: block;
 	font-family: "Roboto", sans-serif;
 	font-size: 48px;
-	color: #6a23b5;
+	color: #17a2b8;
 }
 
 .testimonial p {
@@ -602,7 +544,7 @@ ul {
 	content: "";
 	width: 28px;
 	height: 28px;
-	border: 2px solid #6a23b5;
+	border: 2px solid #17a2b8;
 	border-radius: 40px;
 	left: -10px;
 	top: -10px;
@@ -615,7 +557,7 @@ ul {
 }
 
 #testimonial-slide .owl-dots .owl-dot.active {
-	background: #6a23b5;
+	background: #17a2b8;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
@@ -762,7 +704,7 @@ ul {
 	height: 100%;
 	right: -15px;
 	top: 0;
-	background: #6a23b5;
+	background: #17a2b8;
 	z-index: -1;
 }
 
@@ -841,12 +783,12 @@ ul {
 	Footer section
 --------------------------*/
 .footer-section {
-	background: #220c3b;
+	background: #2be6ab;
 	text-align: center;
 }
 
 .footer-section h2 {
-	color: #6a23b5;
+	color: #fff;
 	font-size: 14px;
 	padding: 18px 0;
 }
@@ -861,7 +803,7 @@ ul {
 .page-top-section {
 	position: relative;
 	height: 405px;
-	background: #6a23b5;
+	background: #17a2b8;
 }
 
 .page-top-section .container {
@@ -1054,7 +996,7 @@ ul {
 	position: absolute;
 	width: 90px;
 	height: 90px;
-	background: #6a23b5;
+	background: #17a2b8;
 	top: 17px;
 	left: 17px;
 	text-align: center;
@@ -1199,7 +1141,7 @@ ul {
 }
 
 .widget-item ul.tag li a {
-	color: #6a23b5;
+	color: #17a2b8;
 	margin-bottom: 0;
 }
 
@@ -1235,7 +1177,7 @@ ul {
 	right: 0;
 	top: 0;
 	border: 0;
-	background: #6a23b5;
+	background: #17a2b8;
 	color: #2be6ab;
 }
 
@@ -1378,7 +1320,7 @@ ul {
 }
 
 .site-accordions .panel-heading {
-	background: #6a23b5;
+	background: #17a2b8;
 	color: #fff;
 	position: relative;
 	padding: 16px 50px;
@@ -1419,11 +1361,11 @@ ul {
 
 .site-accordions .panel.active .panel-heading {
 	background: #2be6ab;
-	color: #6a23b5;
+	color: #17a2b8;
 }
 
 .site-accordions .panel.active .panel-heading a {
-	background: #6a23b5;
+	background: #17a2b8;
 }
 
 .site-accordions .panel.active .panel-heading a:after {
@@ -1467,7 +1409,7 @@ ul {
 
 .facts .fact .icon {
 	margin-right: 20px;
-	color: #6a23b5;
+	color: #17a2b8;
 	font-size: 45px;
 	padding-top: 10px;
 }
